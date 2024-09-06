@@ -1,0 +1,28 @@
+{
+  "name": "pdf-text-extractor",
+  "displayName": "PDF Text Extractor",
+  "description": "Extract text from PDF files and insert into current document.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.extractTextFromPDF",
+        "title": "Extract Text from PDF"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.extractTextFromPDF",
+        "key": "ctrl+alt+e",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.1"
+  }
+}
