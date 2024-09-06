@@ -3,11 +3,14 @@
   "displayName": "PDF Text Extractor",
   "description": "Extract text from PDF files and insert into current document.",
   "version": "1.0.0",
-  "publisher": "Doosik Kim",
+  "publisher": "doosik71",
   "engines": {
     "vscode": "^1.75.0"
   },
   "main": "./src/extension.js",
+  "activationEvents": [
+    "onCommand:extension.extractTextFromPDF"
+  ],
   "contributes": {
     "commands": [
       {
@@ -22,6 +25,10 @@
         "when": "editorTextFocus"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doosik71/pdf-text-extractor"
   },
   "dependencies": {
     "pdf-parse": "^1.1.1"
