@@ -2,7 +2,7 @@
   "name": "pdf-text-extractor",
   "displayName": "PDF Text Extractor",
   "description": "Extract text from PDF files and insert into current document.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "doosik71",
   "engines": {
     "vscode": "^1.75.0"
