@@ -38,6 +38,10 @@ Feel free to submit issues or pull requests to improve the extension.
 
 ## Release Notes
 
+### 1.0.3
+
+- Fixed an error that removed all new lines.
+
 ### 1.0.2
 
 - Remove double spaces and trailing spaces in line endings.
